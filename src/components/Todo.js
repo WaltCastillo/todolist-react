@@ -32,7 +32,7 @@ function CreateTask({ addTask }) {
                 type="text"
                 className="input"
                 value={value}
-                placeholder="Add a new task"
+                placeholder="Añadir tarea"
                 onChange={e => setValue(e.target.value)}
             />
         </form>
@@ -43,15 +43,15 @@ function Todo() {
     const [tasksRemaining, setTasksRemaining] = useState(0);
     const [tasks, setTasks] = useState([
         {
-            title: "Grab some Pizza",
+            title: "Repasar funsiones",
             completed: true
         },
         {
-            title: "Do your workout",
+            title: "Terminar tareas",
             completed: true
         },
         {
-            title: "Hangout with friends",
+            title: "quebrar codigo",
             completed: false
         }
     ]);
@@ -78,7 +78,7 @@ function Todo() {
 
     return (
         <div className="todo-container">
-            <div className="header">Pending tasks ({tasksRemaining})</div>
+            <div className="header">Tareas Pendientes ({tasksRemaining})</div>
             <div className="tasks">
                 {tasks.map((task, index) => (
                     <Task
