@@ -2,11 +2,11 @@
 /* src/components/Todo.css */
 
 body{
-background: rgb(43, 41, 38);
+background: gray;
 }
 
 .todo-container{
-background: rgb(29, 15, 15);
+background: darkgrey;
 width: 40vw;
 margin: 10em auto;
 border-radius: 15px;
@@ -23,7 +23,7 @@ margin: 0.5em;
 }
 
 .task button{
-background: rgb(233, 201, 21);
+background: gray;
 border-radius: 5px;
 margin: 0px 5px;
 padding: 3px 5px;
